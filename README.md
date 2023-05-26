@@ -26,18 +26,18 @@
   총 34개의 차종에 대한 파일 (class_id,차종) 
 
 ## Project Flow
-  1. 데이터 전처리
-    1) Object Detection에서 일반적으로 사용하는 Annotation 형식으로 맞춰줌 (ex: YOLO, COCO)
-    2) Data Augmentation 진행
-    3) 사전에 조사한 모델이 요구하는 데이터 셋 구성
+  1. 데이터 전처리<br>
+    1) Object Detection에서 일반적으로 사용하는 Annotation 형식으로 맞춰줌 (ex: YOLO, COCO)<br>
+    2) Data Augmentation 진행<br>
+    3) 사전에 조사한 모델이 요구하는 데이터 셋 구성<br>
 
-  2. 훈련 준비
-    1) 모델 환경 구성: 사전에 조사한 모델이 요구하는 가상환경 구성
-    2) Config 파일 구성: 모델이 학습함에 있어 필요한 Config파일들 구성
+  2. 훈련 준비<br>
+    1) 모델 환경 구성: 사전에 조사한 모델이 요구하는 가상환경 구성<br>
+    2) Config 파일 구성: 모델이 학습함에 있어 필요한 Config파일들 구성<br>
 
-  3. 훈련
-    1) 모델 훈련이 진행됨에 있어 도출되는 로그를 확인하며 훈련 진행도 확인
+  3. 훈련<br>
+    1) 모델 훈련이 진행됨에 있어 도출되는 로그를 확인하며 훈련 진행도 확인<br>
   
-  4. Inference 진행 및 성능 평가
-    1) 훈련된 모델을 통해 Detection 진행
-    2) Detection 결과를 제출하여 성능 점수 확인 후 Hyper Parameter 조정 진행 후 2번 부터 다시 시작
+  4. Inference 진행 및 성능 평가<br>
+    1) 훈련된 모델을 통해 Detection 진행<br>
+    2) Detection 결과를 제출하여 성능 점수 확인 후 Hyper Parameter 조정 진행 후 2번 부터 다시 시작<br>
