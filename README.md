@@ -12,14 +12,11 @@
   
 ## 데이터 설명
   1. 학습 데이터
-    - 합성 이미지 6481장
-    - 각 이미지의 annotation 파일 6481개
-    - (annotation 형식)
-    - class_id,x1,y1,x2,y1,x2,y2,x1,y2
+  합성 이미지 6481장
+  각 이미지의 annotation 파일 6481개 (annotation 형식: class_id,x1,y1,x2,y1,x2,y2,x1,y2)
   
   2. 검증 데이터
-    - 실제 이미지 3400장
+  실제 이미지 3400장
   
   3. classes.txt
-    - 총 34개의 차종에 대한 파일
-    - class_id,차종 
+  총 34개의 차종에 대한 파일 (class_id,차종) 
