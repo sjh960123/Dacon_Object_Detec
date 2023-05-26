@@ -15,12 +15,12 @@
   합성 이미지 6481장<br>
   각 이미지의 annotation 파일 6481개 (annotation 형식: class_id,x1,y1,x2,y1,x2,y2,x1,y2)<br>
   이미지 예시)<br>
-  ![ex_screenshot](./fig/train1.png) | ![ex_screenshot](./fig/train2.png)
+  ![ex_screenshot](./fig/train1.png)
   
   2. 검증 데이터<br>
   실제 이미지 3400장<br>
   이미지 예시)<br>
-  ![ex_screenshot](./fig/test1.png) | ![ex_screenshot](./fig/test2.png)
+  ![ex_screenshot](./fig/test1.png)
   
   3. classes.txt<br>
   총 34개의 차종에 대한 파일 (class_id,차종) 
