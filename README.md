@@ -41,3 +41,14 @@
   4. Inference 진행 및 성능 평가<br>
     1) 훈련된 모델을 통해 Detection 진행<br>
     2) Detection 결과를 제출하여 성능 점수 확인 후 Hyper Parameter 조정 진행 후 2번 부터 다시 시작<br>
+
+## Reference Git Hub
+  1) 전처리용 Git Hub <br>
+  [https://github.com/Taeyoung96/Yolo-to-COCO-format-converter](https://github.com/Taeyoung96/Yolo-to-COCO-format-converter)<br>
+  2) InternImage Model <br>
+  [https://github.com/OpenGVLab/InternImage](https://github.com/OpenGVLab/InternImage)<br>
+  3) YOLOv7 Model <br>
+  [https://github.com/WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
+
+## Project Report
+  데이콘_합성데이터기반_객체탐지.pptx
