@@ -18,8 +18,34 @@ YOLOv7
       pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
       ```
   4) Install Another Library
-      requirements.txt 에서 torch, torchvision 항목 제거 후 다른 라이브러리 설치 진행:
+      requirements.txt 에서 torch, torchvision 항목 제거 후 다른 라이브러리 설치 진행( 3)에서 torch 설치 진행 )
       ```
       pip install -r requirements.txt
       ```
-      
+# Prepare Dataset
+  1) Dataset Structure
+     ```
+     Dataset
+     ├── train
+     |   ├── images
+     |       └── image1.png ...
+     |   └── labels
+     |       └── image1.txt ...
+     └── validation
+         ├── images
+         |   └── image10.png ...
+         └── labels
+             └── image10.txt ...
+     ```
+  2) Create YAML File
+     ```
+     train: {train directory path}
+     val: {validation directory path}
+
+     nc: {number of classes}
+
+     names:[classes of dataset]
+     ```
+# How to Train YOLOv7
+  1) Download Pretrained Model
+     https://github.com/WongKinYiu/yolov7/releases/tag/v0.1
