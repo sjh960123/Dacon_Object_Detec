@@ -47,5 +47,17 @@ YOLOv7
      names:[classes of dataset]
      ```
 # How to Train YOLOv7
-  1) Download Pretrained Model
-     https://github.com/WongKinYiu/yolov7/releases/tag/v0.1
+  1) Download Pretrained Weight <br>
+     https://github.com/WongKinYiu/yolov7/releases/tag/v0.1 에서 원하는 Weight 파일 다운로드<br>
+     YOLOv7 Git Hub의 Performance 표 참고
+  2) Fix Config YAML File
+     다운로드 한 weight에 맞는 Config 파일을 yolov7/cfg에서 찾은 뒤 수정
+     ```
+     nc: 80 => nc: {number of classes}
+     ```
+  4) Train Syntax
+     ```
+     python train.py --weights {weight file path} --cfg {config file path} \
+     --data {data yaml file path} --epochs {number of epochs} --batch-size {number of batch size} \
+     --project {path save directory} --name {save directory name}
+     ```
