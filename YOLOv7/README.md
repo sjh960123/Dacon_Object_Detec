@@ -61,3 +61,5 @@ YOLOv7
      --data {data yaml file path} --epochs {number of epochs} --batch-size {number of batch size} \
      --project {path save directory} --name {save directory name}
      ```
+# Reference
+  https://github.com/WongKinYiu/yolov7
