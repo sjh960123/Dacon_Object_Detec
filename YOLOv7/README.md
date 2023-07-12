@@ -2,11 +2,11 @@ YOLOv7
 ======
 
 # Installation
-  1) 가상환경 구성:
+  1) 가상환경 구성
       ```
       conda create -n yolov7 python=3.7.3 -y
       ```
-  2) Git Clone:
+  2) Git Clone
       ```
       git clone https://github.com/WongKinYiu/yolov7
       cd yolov7
