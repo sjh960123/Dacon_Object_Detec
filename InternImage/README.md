@@ -33,4 +33,21 @@ InternImage
      ```
 # Prepare Dataset
   1) Dataset Structure
+     ```
+     Dataset
+     ├── train
+     |   └── image1.png ...
+     ├── validation
+     |   └── image10.png ...
+     └── annotations
+         ├── train.json
+         └── validation.json
+     ```
+     데이터 셋 구조는 COCO 데이터 셋의 형식에 맞춰 구성<br>
+     annotaions 폴더 안에 train.json과 validation.json은 각 train 데이터와 validation 데이터의 annotation 정보 함유
+  2) Datatyep Config 파일 생성
+     
+  4) Dataset에 대한 Config 파일 생성
+     InternImage/detection/configs/_base_/datasets/coco_detection.py 참고하여 작성
+     
      
