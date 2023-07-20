@@ -112,7 +112,7 @@ InternImage
      ...
      ```
 # Train
-  Train Sytax
+  Train Syntax
   ```
   python train.py {작성한 Train Config파일 경로} --work-dir {훈련 결과를 저장할 디렉토리 경로} 
   ```
